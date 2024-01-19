@@ -26,8 +26,8 @@ const MapOfMidgard = () => {
       if (imgRef.current && buttonRef.current) {
         const imgRect = imgRef.current.getBoundingClientRect();
         // Replace these with the x and y positions of the marker as a fraction of the image size
-        const markerX = 0.278;
-        const markerY = 0.25;
+        const markerX = 0.27;
+        const markerY = 0.15;
         buttonRef.current.style.left = `${imgRect.left + imgRect.width * markerX}px`;
         buttonRef.current.style.top = `${imgRect.top + imgRect.height * markerY}px`;
       }
@@ -55,19 +55,20 @@ const MapOfMidgard = () => {
                 height: "calc(100% - height of your nav bar)", // replace this with the height of your nav bar
               }}
             />
-            <button
+            <img
               ref={buttonRef}
+              src="/images/Map/marker2.png" // replace this with the path to your marker image
+              alt="Marker"
               style={{
+                width: '5%',
                 position: 'absolute',
                 zIndex: 1, // Add this line
                 // ...
               }}
               onClick={() => {
-                // handle click event
-              }}
-            >
-              Marker
-            </button>
+                console.log('Marker clicked!'); // Add this line
+            }}
+            />
           </div>
         </div>
       </section>

@@ -58,7 +58,7 @@ npm start
 ## Support
 This is an open source project and everyone is welcome to contribute. Feel free to open an issue, if you have any questions or incase you find a bug. Create your versions of this template and help the community, also if you are using our template a little credit will be much appreciated.
 
-Created by **[Rupali Yadav](https://www.linkedin.com/in/rupali-yadav-087bb4112/)** and **[Mayur Nalwala](https://www.linkedin.com/in/mayur-nalwala/)** from [WebExpe](https://webexpe.com/) with ♥
+Created by **[Aaron Yadav](https://www.linkedin.com/in/Aaron-yadav-087bb4112/)** and **[Aaron Nalwala](https://www.linkedin.com/in/Aaron-nalwala/)** from [WebExpe](https://webexpe.com/) with ♥
 
 <a href="https://www.buymeacoffee.com/webexpe13z" target="_blank">![support us](/public/images/bmc.png)</a>
 ## Licence

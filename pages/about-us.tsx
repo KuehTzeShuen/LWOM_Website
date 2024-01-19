@@ -9,7 +9,7 @@ const AboutUs = () => {
         title: 'About Us',
         description: `Hi we are WebExpe. This is an open source blog template which can help you start a simple static blog.`,
         keywords: 'webexpx, contact us, webexpe13@gmail.com, next js blog template',
-        author: 'Mayur Nalwala, Rupali Yadav'
+        author: 'Aaron Nalwala, Aaron Yadav'
     }
     return (
         <PageLayout PAGE_SEO={PAGE_SEO} home>
@@ -86,7 +86,7 @@ const AboutUs = () => {
                     </Text>
                     <Seperator />
                     <Text p className='text-lg'>
-                        Created by <LinkTo href="https://www.linkedin.com/in/rupali-yadav-087bb4112/" external className="font-semibold">Rupali Yadav</LinkTo> and <LinkTo href="https://www.linkedin.com/in/mayur-nalwala/" external className="font-semibold">Mayur Nalwala</LinkTo> from <a href="https://webexpe.com/" target="_blank" rel="noopener noreferrer" className="font-medium tracking-widest">WebExpe</a> with ♥
+                        Created by <LinkTo href="https://www.linkedin.com/in/Aaron-yadav-087bb4112/" external className="font-semibold">Aaron Yadav</LinkTo> and <LinkTo href="https://www.linkedin.com/in/Aaron-nalwala/" external className="font-semibold">Aaron Nalwala</LinkTo> from <a href="https://webexpe.com/" target="_blank" rel="noopener noreferrer" className="font-medium tracking-widest">WebExpe</a> with ♥
                     </Text>
                     <a href="https://www.buymeacoffee.com/webexpe13z" target="_blank" rel="noopener noreferrer">
                         <img src="/images/bmc.png" className="ml-0" alt="webexpe.com" />

@@ -5,10 +5,10 @@ import { iSEO } from "../src/shared/interfaces";
 
 const ContactUs = () => {
     const PAGE_SEO: iSEO = {
-        title: 'Contact Us',
-        description: 'For any any queries related to this project / template feel free to connect with us on webexpe13@gmail.com',
+        title: 'Prominent Characters',
+        description: '',
         keywords: 'webexpx, contact us, webexpe13@gmail.com, next js blog template',
-        author: 'Mayur Nalwala, Rupali Yadav'
+        author: 'Aaron Nalwala, Aaron Yadav'
     } 
     return (
         <PageLayout PAGE_SEO={PAGE_SEO} home>
@@ -38,7 +38,7 @@ const ContactUs = () => {
 
             <section className={"dark:bg-slate-800 bg-blue-100 mt-10 container py-10 md:px-20 px-5"}>
                 <Text subtitle className="md:!text-5xl text-4xl !font-light">
-                    Work with us . . .
+                    test
                 </Text>
                 <Text p className="!text-lg leading-relaxed mt-5 px-1">
                     We are a group of developers and designers with more than 5 years of industry experience. If you have any requirements like Website Development, Website / App Design feel free to contact us on the given email.

@@ -50,7 +50,7 @@ const Icons = () => {
     const PAGE_SEO: iSEO = {
         title: 'Icons',
         keywords: 'webexpx, contact us, webexpe13@gmail.com, next js blog template',
-        author: 'Mayur Nalwala, Rupali Yadav'
+        author: 'Aaron Nalwala, Aaron Yadav'
     }
     return (
         <PageLayout PAGE_SEO={PAGE_SEO} home>

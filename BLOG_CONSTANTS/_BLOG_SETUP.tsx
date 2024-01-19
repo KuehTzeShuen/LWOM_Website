@@ -92,19 +92,19 @@ export const PRIMARY_NAV: iNavSetup = {
             path: ''
         },
         {
-            label: 'About Us',
-            path: '/about-us'
+            label: 'Lore',
+            path: '/lore'
         },
         {
             // to open a link in new tab pass newTab: true
             label: 'World Map',
             path: '/map-of-midgard',
         },
-        {
-            label: 'Github Repo',
-            path: 'https://github.com/webexpe13/blog-template-using-nextjs-typescript-tailwindcss',
-            newTab: true
-        },
+        // {
+        //     label: 'Github Repo',
+        //     path: 'https://github.com/webexpe13/blog-template-using-nextjs-typescript-tailwindcss',
+        //     newTab: true
+        // },
         {
             label: 'Prominent Characters',
             path: '/prominent-characters'
@@ -144,15 +144,11 @@ export const PRIMARY_NAV: iNavSetup = {
     socials: [
         {
             link: 'https://www.facebook.com/',
-            icon: <AiFillFacebook />
+            icon: <AiFillGithub />
         },
         {
             link: 'https://www.instagram.com/',
             icon: <AiFillInstagram />
-        },
-        {
-            link: 'https://twitter.com/WebExpe',
-            icon: <AiOutlineTwitter />
         },
     ]
 }

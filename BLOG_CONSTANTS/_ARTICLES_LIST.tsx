@@ -38,7 +38,7 @@ const ARTICLES_LIST: iArticle[] = [
     preview: {
       author: Aaron,
       date: "August 08 2022",
-      articleTitle: "How to setup this blog template",
+      articleTitle: "Campaign 1",
       tags: "demo, blog setup",
       thumbnail: "/public/imp_assets/tutorials/how-to-setup-blog.svg",
       shortIntro: "These are the steps to setup your blog",

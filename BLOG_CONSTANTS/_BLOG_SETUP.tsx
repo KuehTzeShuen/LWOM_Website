@@ -76,8 +76,8 @@ export const PRIMARY_NAV: iNavSetup = {
     //     logoLight: '/images/logo-light.png'
     // },
     logo: {
-        type: LogoType.TEXT,
-        logo: 'Living World of Midgard',
+        type: LogoType.IMAGE,
+        logo: '/images/LWOM2.png',
     },
     // navLinks are the main navbar links that apper on top of every page
     navLinks: [
@@ -154,11 +154,9 @@ export const PRIMARY_NAV: iNavSetup = {
 }
 
 export const DEFAULT_SEO: iSEO = {
-    title: "Nextjs simple blog template",
-    description: "A simple blog template using NextJS and Typescript.",
-    keywords: "Blog, next js, template, next js blog, blog setup, typescript, nextjs typescript, react js blog template, responsive blog template",
+    title: "LWOM",
+    description: "Dungeons and Dragons Homebrew Realm created by SquirtlenickOCE",
+    keywords: "Dungeons and Dragons, DnD, Homebrew, Realm, Midgard, LWOM, Living World of Midgard, SquirtlenickOCE, Aaron Lai, Kueh Tze Shuen",
     url: WEBSITE_URL,
     author: `${Aaron.name}, ${Shuen.name}`,
-    twitterHandle: '@WebExpe',
-    ogImage: '/public/images/og-image.jpg'
 }

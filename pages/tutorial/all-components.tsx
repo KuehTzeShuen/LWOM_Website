@@ -49,7 +49,7 @@ const AllComponents = () => {
     }
   }, [router]);
 
-  const isActive = (href: string) => href === "#" + activeHash;
+  const isActive = (href: string) => href === activeHash;
 
   // all side btn links
   const sideBtns: iSideBtnLinks[] = [

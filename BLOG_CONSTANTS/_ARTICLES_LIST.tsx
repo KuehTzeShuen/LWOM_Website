@@ -37,15 +37,16 @@ const ARTICLES_LIST: iArticle[] = [
     featureArticle: true,
     preview: {
       author: Aaron,
-      date: "August 08 2022",
-      articleTitle: "Campaign 1",
-      tags: "demo, blog setup",
-      thumbnail: "/public/imp_assets/tutorials/how-to-setup-blog.svg",
-      shortIntro: "These are the steps to setup your blog",
+      date: "April 2024",
+      //name of the article
+      articleTitle: "The Mountain of Madness",
+      tags: "Adventure-focus, Port-Winterhaven, Dungeon-Delveing, Undead, Mystery",
+      thumbnail: "/public/images/Campaigns/The Mountain of Madness.jpg",
+      shortIntro: "Long ago the Peak of Winterhaven was known for the abundance of mining minerals and its over hard-working dwarves. But, time have changed since then and the dwarves are left scratching with the growls of the undead appearing out of thin air.",
       category: "tutorial",
     },
     seo: {
-      title: "How to setup this blog template",
+      title: "The Mountains of Madness",
       description: "These are the steps to setup your blog",
       keywords: "demo, blog setup",
       ogImage: "/public/imp_assets/tutorials/how-to-setup-blog.svg",
@@ -58,12 +59,13 @@ const ARTICLES_LIST: iArticle[] = [
     featureArticle: true,
     preview: {
       author: Aaron,
-      date: "August 08 2022",
-      articleTitle: "How to write your first article",
-      tags: "demo, first article",
-      thumbnail: "/public/imp_assets/tutorials/how-to-write-first-article.svg",
+      date: "April 2024",
+      //name of the article
+      articleTitle: "Travellers of Hel",
+      tags: "Combat-focus, Hel, Infernal",
+      thumbnail: "/public/images/Campaigns/Travellers of Hel2.jpg",
       shortIntro:
-        "This a step by step guide on how to write your first article.",
+        "Infernal contracts have been appearing all across Euvrera about a fun little excursion in Hel. Although most have a disdain for the Infernal kind, many have begun worrying about the state of Hel itself since contracts like these have never appeared before above the surface.",
       category: "tutorial",
     },
     seo: {
@@ -77,12 +79,13 @@ const ARTICLES_LIST: iArticle[] = [
     featureArticle: true,
     preview: {
       author: Aaron,
-      date: "August 08 2022",
-      articleTitle: "How to Export and deploy on firebase",
-      tags: "demo, deploy blog",
-      thumbnail: "/public/imp_assets/tutorials/how-to-deploy.svg",
+      date: "April 2024",
+      //name of the article
+      articleTitle: "Traders within the Dark",
+      tags: "RP-focus, Politics, Port-Eldermare, Thieves-Guild",
+      thumbnail: "/public/images/Campaigns/Traders within the Dark.jpg",
       shortIntro:
-        "In this article you will see how to export blog files and what folder to deploy on your hosting.",
+        "Port Eldermare is known for its dangerous trading of illicit goods, so much that it has become a hub for dangerous people as well. Inevitably, as power begins to gather within multiple faction, conflict arises. As an outsider, it is easy to ignore the faction war and stay out of trouble, but what fun would that be, for there is profit to be made out in these streets.",
       category: "tutorial",
     },
     seo: {

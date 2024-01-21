@@ -24,7 +24,7 @@ const Home = () => {
           </Text>
 
           <Text p className="mt-3 text-xl">
-            Bear witness the consequences of your actions.
+            "Bear witness the consequences of your actions." -Aaron, probably
           </Text>
 
           <div className="flex justify-center mt-5 flex-wrap ">
@@ -40,7 +40,7 @@ const Home = () => {
             </Link>
             <Link href="pages/lore">
               <a className="flex items-center justify-center rounded-md bg-blue-700 px-4 pb-2 text-white hover:text-white shadow-lg hover:shadow-none transition-all mb-3 md:mx-5 mx-2">
-                <span className="text-xl pt-2 block">Heroes</span>
+                <span className="text-xl pt-2 block">Characters</span>
               </a>
             </Link>
             <Link href="pages/lore">

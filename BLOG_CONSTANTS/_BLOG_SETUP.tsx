@@ -92,10 +92,6 @@ export const PRIMARY_NAV: iNavSetup = {
             path: ''
         },
         {
-            label: 'Lore',
-            path: '/lore'
-        },
-        {
             // to open a link in new tab pass newTab: true
             label: 'World Map',
             path: '/map-of-midgard',
@@ -106,8 +102,8 @@ export const PRIMARY_NAV: iNavSetup = {
         //     newTab: true
         // },
         {
-            label: 'Prominent Characters',
-            path: '/prominent-characters'
+            label: 'About',
+            path: '/about'
         }
     ],
     // sideNavLinks are the links which appear when you open the side menu after clicking the burger menu icon.

@@ -33,7 +33,7 @@ import { Aaron, Shuen } from "./_BLOG_SETUP";
 // clear this article list and add your own
 const ARTICLES_LIST: iArticle[] = [
   {
-    path: "/pages/tutorial/how-to-setup-blog.tsx",
+    path: "/pages/tutorial/the-mountain-of-madness.tsx",
     featureArticle: true,
     preview: {
       author: Aaron,
@@ -42,7 +42,7 @@ const ARTICLES_LIST: iArticle[] = [
       articleTitle: "The Mountain of Madness",
       tags: "Adventure-focus, Port-Winterhaven, Dungeon-Delveing, Undead, Mystery",
       thumbnail: "/public/images/Campaigns/The Mountain of Madness.jpg",
-      shortIntro: "Long ago the Peak of Winterhaven was known for the abundance of mining minerals and its over hard-working dwarves. But, time have changed since then and the dwarves are left scratching with the growls of the undead appearing out of thin air.",
+      shortIntro: "Long ago the Peak of Winterhaven was known for its abundance of mining minerals and its hard-working dwarves. But, times have changed since then and the dwarves are left scratching the cavern walls while the growls of the undead appear seemingly out of thin air.",
       category: "tutorial",
     },
     seo: {
@@ -90,62 +90,6 @@ const ARTICLES_LIST: iArticle[] = [
     },
     seo: {
       ogImage: "/public/imp_assets/tutorials/how-to-deploy.svg",
-    },
-  },
-  {
-    path: "/pages/tutorial/home-layout.tsx",
-    preview: {
-      author: Aaron,
-      date: "August 14 2022",
-      articleTitle: "Home Layout Example",
-      tags: "demo, layout, home layout",
-      thumbnail: "/public/imp_assets/tutorials/home-layouts.svg",
-      shortIntro: "In this article we will see Default Home Layout example.",
-      category: "layouts",
-    },
-    seo: {
-      title: "Home Layout Example",
-      description: "In this article we will see Default Home Layout example.",
-      keywords:
-        "next js, tailwind css, typescript, blog template, default layout, default home layout",
-      ogImage: "/public/imp_assets/tutorials/home-layouts.svg",
-      author: Aaron.name,
-    },
-  },
-  {
-    path: "/pages/tutorial/blog-with-sidebar-layout.tsx",
-    preview: {
-      author: Aaron,
-      date: "August 14 2022",
-      articleTitle: "Page Layout for a article with sidebar",
-      tags: "demo, with sidebar, default layout",
-      thumbnail: "/public/imp_assets/tutorials/blog-with-sidebar-layout.svg",
-      shortIntro:
-        "In this article we will see Page Layout for a blog with sidebar example.",
-      category: "layouts",
-    },
-    seo: {
-      keywords:
-        "demo, with sidebar, blog page layout, blog page design with sidebar, webexpe, webexpe.com",
-      ogImage: "/public/imp_assets/tutorials/blog-with-sidebar-layout.svg",
-    },
-  },
-  {
-    path: "/pages/tutorial/blog-with-centered-layout.tsx",
-    preview: {
-      author: Aaron,
-      date: "August 14 2022",
-      articleTitle: "Page Layout for a article with centered layout",
-      tags: "demo, centered, centered layout",
-      thumbnail: "/public/imp_assets/tutorials/blog-with-centered-layout.svg",
-      shortIntro:
-        "This a demo article with centered layout and with demo of all the components.",
-      category: "layouts",
-    },
-    seo: {
-      keywords:
-        "demo, centered, centered layout, blog page layout, blog page design with centered layout, webexpe, webexpe.com",
-      ogImage: "/public/imp_assets/tutorials/blog-with-centered-layout.svg",
     },
   },
   {
@@ -214,6 +158,65 @@ const ARTICLES_LIST: iArticle[] = [
       keywords:
         "demo, all components, style guide, styling, css, tailwind css, tailwind, webexpe, webexpe.com, styling tutorial, icons, how to use icons in website",
       ogImage: "/public/imp_assets/tutorials/how-to-write-first-article.svg",
+    },
+  },
+
+
+  //Prominent Characters
+  {
+    path: "/pages/tutorial/home-layout.tsx",
+    preview: {
+      author: Aaron,
+      date: "March 2019",
+      articleTitle: "Lionel",
+      tags: "The Hero's Trial",
+      thumbnail: "/public/images/Characters/Lionel.jpg",
+      shortIntro: "In this article we will see Default Home Layout example.",
+      category: "Prominent Characters",
+    },
+    seo: {
+      title: "Home Layout Example",
+      description: "In this article we will see Default Home Layout example.",
+      keywords:
+        "next js, tailwind css, typescript, blog template, default layout, default home layout",
+      ogImage: "/public/imp_assets/tutorials/home-layouts.svg",
+      author: Aaron.name,
+    },
+  },
+  {
+    path: "/pages/tutorial/blog-with-sidebar-layout.tsx",
+    preview: {
+      author: Aaron,
+      date: "September 2020",
+      articleTitle: "Nidal Apollo",
+      tags: "Glory Awaits",
+      thumbnail: "/public/images/Characters/Nidal.jpg",
+      shortIntro:
+        "In this article we will see Page Layout for a blog with sidebar example.",
+      category: "Prominent Characters",
+    },
+    seo: {
+      keywords:
+        "demo, with sidebar, blog page layout, blog page design with sidebar, webexpe, webexpe.com",
+      ogImage: "/public/imp_assets/tutorials/blog-with-sidebar-layout.svg",
+    },
+  },
+  {
+    path: "/pages/tutorial/blog-with-centered-layout.tsx",
+    preview: {
+      author: Aaron,
+      date: "July 2023",
+      articleTitle: "Barry B. Benson",
+      tags: "Cries of the Angels",
+      thumbnail: "/public/images/Characters/Barry.jpg",
+      shortIntro:
+        "This a demo article with centered layout and with demo of all the components.",
+      category: "Prominent Characters",
+    },
+    seo: {
+      keywords:
+        "demo, centered, centered layout, blog page layout, blog page design with centered layout, webexpe, webexpe.com",
+      ogImage: "/public/imp_assets/tutorials/blog-with-centered-layout.svg",
     },
   },
 ];

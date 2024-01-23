@@ -25,7 +25,7 @@ const FeaturedArticle = ({ article, path }: IProp) => {
                         </h1>
                     </LinkTo>
                     <p className={combineClasses(classes.featured_article__intro, "text-[14px] font-regular mt-0 mb-[10px]")}>
-                        {article.shortIntro.slice(0, 250)}...
+                        {article.shortIntro.slice(0, 250)} ...
                     </p>
                     <ArticleTags tags={article.tags} />
                     <p className={combineClasses(classes.featured_article__date, "font-normal text-xs pt-3 mb-0")}>{article.date}</p>

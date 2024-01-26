@@ -92,6 +92,10 @@ export const PRIMARY_NAV: iNavSetup = {
             path: ''
         },
         {
+            label: 'Deities',
+            path: '/deities',
+        },
+        {
             // to open a link in new tab pass newTab: true
             label: 'World Map',
             path: '/map-of-midgard',

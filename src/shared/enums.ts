@@ -8,7 +8,8 @@ export enum ImageSize {
   FUll = "full",
   SMALL = "small",
   MEDIUM = "medium",
-  XS = 'xs'
+  XS = 'xs',
+  xxs = 'xxs',
 }
 
 export enum NavbarType {

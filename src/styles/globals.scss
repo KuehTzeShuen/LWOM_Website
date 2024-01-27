@@ -57,6 +57,13 @@ hr {
   @apply border-gray-300;
 }
 
+hr3 {
+  background: none;
+  border: none;
+  border-top: solid 3px;
+  @apply border-gray-300;
+}
+
 @-webkit-keyframes fadeIn {
   0% {
     opacity: 0;
@@ -118,4 +125,21 @@ hr {
       }
     }
   }
+}
+
+@font-face {
+  font-family: 'Warmonger BB';
+  src: url('/path-to-your-font/WarmongerBB-Regular.ttf') format('truetype');
+}
+
+.text-warmonger {
+  font-family: 'Warmonger BB'
+}
+
+.text-stretch {
+  display: flex;
+  justify-content: space-between;
+  text-transform: uppercase;
+  letter-spacing: 1.5vw; // Adjust based on the viewport's width
+  padding: 0 1.5vw; // Adjust based on the viewport's width
 }

@@ -33,7 +33,7 @@ import { Aaron, Shuen } from "./_BLOG_SETUP";
 // clear this article list and add your own
 const ARTICLES_LIST: iArticle[] = [
   {
-    path: "/pages/tutorial/the-mountain-of-madness.tsx",
+    path: "/pages/future-campaigns/the-mountain-of-madness.tsx",
     featureArticle: true,
     preview: {
       author: Aaron,
@@ -164,7 +164,7 @@ const ARTICLES_LIST: iArticle[] = [
 
   //Prominent Characters
   {
-    path: "/pages/tutorial/home-layout.tsx",
+    path: "/pages/prominent-characters/lionel.tsx",
     preview: {
       author: Aaron,
       date: "March 2019",

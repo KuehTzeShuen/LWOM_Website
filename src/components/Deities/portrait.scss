@@ -1,0 +1,11 @@
+@import "../../styles/utils/mixins";
+
+.portrait-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .portrait {
+    flex: 1 0 auto;
+    max-width: 100px; /* adjust this value to change the size of the portraits */
+  }

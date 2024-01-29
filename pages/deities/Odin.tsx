@@ -45,123 +45,127 @@ const Odin = () => {
 
   return (
     <PageLayout PAGE_SEO={PAGE_SEO} home>
-      <section className="container px-0 pb-10 md:pt-20 pt-[80px]">
-        <div className="flex flex-wrap justify-stretch">
-          <div className="flex flex-wrap justify-stretch md:w-2/3">
-            <div className="flex flex-wrap justify-between">
+      <div className="min-h-screen bg-slate-950  border-slate-50 border-2 mx-20 my-5">
+        <section className="container px-0 pb-10 md:pt-20 pt-[80px] p-10">
+          <div className="flex flex-wrap justify-stretch">
+            <div className="flex flex-wrap justify-stretch md:w-2/3">
               <div className="flex flex-wrap justify-between">
-                <hr3 ref={hrRef1} className="border-3 w-[100%] mx-auto" />
-                <Text
-                  ref={odinRef}
-                  title
-                  className="!text-6xl !font-medium text-warmonger text-stretch"
-                >
-                  TEST
-                </Text>
-                <hr3 ref={hrRef2} className="border-3 mb-5 w-[100%] mx-auto" />
-              </div>
-              <div className="flex flex-wrap justify-between pl-5 items-center">
-                <div className="">
-                  <Text p className="!text-lg leading-relaxed text-slate-300">
-                    The One-Eyed God, Sole Ruler of Asgard
-                    <Text
-                      p
-                      className="!text-4xl leading-relaxed text-slate-100"
-                    >
-                      The Church of Honor
-                    </Text>
+                <div className="flex flex-wrap justify-between">
+                  <hr3 ref={hrRef1} className="border-3 w-[100%] mx-auto" />
+                  <Text
+                    ref={odinRef}
+                    title
+                    className="!text-6xl !font-medium text-warmonger text-stretch"
+                  >
+                    ODIN
                   </Text>
-                </div>
-              </div>
-            </div>
-            <div className="flex flex-wrap justify-between">
-              <div className="w-full md:pl-2">
-                <Text
-                  p
-                  className="!text-lg leading-relaxed text-warmonger !text-justify text-slate-300"
-                >
-                  The all-father himself. He commands an army of valkyries and
-                  resides in the realm of Valhalla. With that, he receives the
-                  souls of the people who died in glorious battle, called the
-                  Einherjar and continues to train them for Ragnorak or
-                  otherwise known as "Doomsday". Known commonly by the people of
-                  Midgard as the first deity as well as the last, Odin continues
-                  to train and study the different realms of existence to
-                  prepare for the final battle.
-                </Text>
-
-                <div className="relative">
-                  <hr className="absolute inset-0 w-full" />
-                  <Image
-                    src="/public/images/baroque/b1.png"
-                    alt="b1"
-                    size={ImageSize.XS}
-                    className="relative"
+                  <hr3
+                    ref={hrRef2}
+                    className="border-3 mb-5 w-[100%] mx-auto"
                   />
                 </div>
-                <div className="flex items-center">
-                  <div className="md:w-1/3 flex flex-col items-center px-5">
-                    <Text
-                      p
-                      className="!text-3xl leading-relaxed text-slate-100 flex flex-col items-center"
-                    >
-                      Divine Domains
+                <div className="flex flex-wrap justify-between pl-5 items-center">
+                  <div className="">
+                    <Text p className="!text-lg leading-relaxed text-slate-300">
+                      The One-Eyed God, Sole Ruler of Asgard
+                      <Text
+                        p
+                        className="!text-5xl leading-relaxed text-slate-100"
+                      >
+                        The Church of Honor
+                      </Text>
                     </Text>
-
-                    <hr className="w-full" />
-                    <div
-                      p
-                      className="!text-lg leading-relaxed text-slate-300 items-center flex flex-col mt-3"
-                    >
-                      <Text>War Domain</Text>
-                      <Text>Knowledge Domain</Text>
-                      <Text>Life Domain</Text>
-                      <Text>Glory Domain</Text>
-                    </div>
                   </div>
-                  <div className="md:w-1/3 flex flex-col items-center px-5">
-                    <Text
-                      p
-                      className="!text-3xl leading-relaxed text-slate-100 flex flex-col items-center"
+                </div>
+              </div>
+              <div className="flex flex-wrap justify-between">
+                <div className="w-full md:pl-2">
+                  <Text
+                    p
+                    className="!text-lg md:!text-xl lg:!text-2xl leading-relaxed text-warmonger !text-justify text-slate-300"
                     >
-                      Divine Domains
+                    The all-father himself. He commands an army of valkyries and
+                    resides in the realm of Valhalla. With that, he receives the
+                    souls of the people who died in glorious battle, called the
+                    Einherjar and continues to train them for Ragnorak or
+                    otherwise known as "Doomsday". Known commonly by the people
+                    of Midgard as the first deity as well as the last, Odin
+                    continues to train and study the different realms of
+                    existence to prepare for the final battle.
+                  </Text>
+                  <div className="items-center ">
+                    <div className="flex items-center">
+                      <hr className="w-1/2" />
                       <Image
                         src="/public/images/baroque/b1.png"
                         alt="b1"
-                        size={ImageSize.DEFAULT}
+                        size={ImageSize.XS}
                       />
-                    </Text>
-                    <hr className="w-full" />
-                    <div
-                      p
-                      className="!text-lg leading-relaxed text-slate-300 items-center flex flex-col mt-3"
-                    >
-                      <Text>War Domain</Text>
-                      <Text>Knowledge Domain</Text>
-                      <Text>Life Domain</Text>
-                      <Text>Glory Domain</Text>
+                      <hr className="w-1/2" />
+                    </div>
+                  </div>
+                  <div className="flex items-center">
+                    <div className="md:w-1/3 flex flex-col items-center px-5">
+                      <Text
+                        p
+                        className="!text-3xl leading-relaxed text-slate-100 flex flex-col items-center"
+                      >
+                        Holy Symbol
+                      </Text>
+
+                      <hr className="w-full" />
+                      <div
+                        p
+                        className="!text-lg leading-relaxed text-slate-300 items-center flex flex-col mt-3 ml-5"
+                      >
+                        <Text>
+                          Horn Triskelion or Triple-Horned Triskele (three
+                          interlocking drinking horns)
+                        </Text>
+                      </div>
+                    </div>
+                    <div className="md:w-1/3 flex flex-col items-center px-5">
+                      <Text
+                        p
+                        className="!text-3xl leading-relaxed text-slate-100 flex flex-col items-center"
+                      >
+                        Divine Domains
+                      </Text>
+                      <hr className="w-full" />
+                      <div
+                        p
+                        className="!text-lg leading-relaxed text-slate-300 items-center flex flex-col mt-3"
+                      >
+                        <Text>War Domain</Text>
+                        <Text>Knowledge Domain</Text>
+                        <Text>Life Domain</Text>
+                        <Text>Glory Domain</Text>
+                      </div>
+                    </div>
+                    <div className="md:w-1/3 flex flex-col items-center px-5">
+                      <Text
+                        p
+                        className="!text-xl leading-relaxed text-slate-300 flex flex-col items-center"
+                      >
+                        Alignment:
+                      </Text>
+                      <Text className="!text-2xl text-slate-50">Neutral Good</Text>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
+            <div className="md:w-1/3 w-full flex flex-col items-center">
+              <Image
+                src="/public/images/Deities/Odin.png"
+                alt="Odin"
+                size={ImageSize.DEFAULT}
+                caption="Current Residence: Valhalla"
+              />
+            </div>
           </div>
-          <div className="md:w-1/3 w-full flex flex-col items-center">
-            <Text p className="!font-light md:!text-xs ml-10 text-slate-300">
-              {" "}
-              Divine Form{" "}
-            </Text>
-            <Image
-              src="/public/images/Deities/Odin.png"
-              alt="Odin"
-              size={ImageSize.xxs}
-            />
-            <Text p className="!text-lg leading-relaxed text-slate-300">
-              Current Residence: Valhalla
-            </Text>
-          </div>
-        </div>
-      </section>
+        </section>
+      </div>
     </PageLayout>
   );
 };

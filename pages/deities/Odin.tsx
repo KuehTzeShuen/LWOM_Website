@@ -60,7 +60,7 @@ const Odin = () => {
                 </Text>
                 <hr3 ref={hrRef2} className="border-3 mb-5 w-[100%] mx-auto" />
               </div>
-              <div className="flex flex-wrap justify-between pl-5">
+              <div className="flex flex-wrap justify-between pl-5 items-center">
                 <div className="">
                   <Text p className="!text-lg leading-relaxed text-slate-300">
                     The One-Eyed God, Sole Ruler of Asgard
@@ -90,57 +90,71 @@ const Odin = () => {
                   prepare for the final battle.
                 </Text>
 
-                <Image
-                  src="/public/images/baroque/b1.png"
-                  alt="Odin"
-                  size={ImageSize.XS}
-                />
-                <div className="md:w-1/3 flex flex-col items-center">
-                  <Text p className="!text-3xl leading-relaxed text-slate-100 flex flex-col items-center">
-                    Divine Domains
-                  </Text>
-                  <hr className="w-full" />
-                  <Text p className="!text-lg leading-relaxed text-slate-300">
-                    <List className="mt-5 flex flex-col items-center">
+                <div className="relative">
+                  <hr className="absolute inset-0 w-full" />
+                  <Image
+                    src="/public/images/baroque/b1.png"
+                    alt="b1"
+                    size={ImageSize.XS}
+                    className="relative"
+                  />
+                </div>
+                <div className="flex items-center">
+                  <div className="md:w-1/3 flex flex-col items-center px-5">
+                    <Text
+                      p
+                      className="!text-3xl leading-relaxed text-slate-100 flex flex-col items-center"
+                    >
+                      Divine Domains
+                    </Text>
+
+                    <hr className="w-full" />
+                    <div
+                      p
+                      className="!text-lg leading-relaxed text-slate-300 items-center flex flex-col mt-3"
+                    >
                       <Text>War Domain</Text>
-                      Knowledge Domain <br/>
-                      Life Domain <br/>
-                      Glory Domain <br/>
-                    </List>
-                    <br />
-                    <br />
-                    Alignment Neutral Good
-                    <br />
-                    <br />
-                    Honorary & Occupational Titles The All-Father The First and
-                    the Last The Spiritual One The Lord of Glory
-                    <br />
-                    <br />
-                    Current Residence Valhalla
-                    <br />
-                    <br />
-                    Holy Symbol Horn Triskelion or Triple-Horned Triskele (three
-                    interlocking drinking horns)
-                    <br />
-                    <br />
-                  </Text>
+                      <Text>Knowledge Domain</Text>
+                      <Text>Life Domain</Text>
+                      <Text>Glory Domain</Text>
+                    </div>
+                  </div>
+                  <div className="md:w-1/3 flex flex-col items-center px-5">
+                    <Text
+                      p
+                      className="!text-3xl leading-relaxed text-slate-100 flex flex-col items-center"
+                    >
+                      Divine Domains
+                      <Image
+                        src="/public/images/baroque/b1.png"
+                        alt="b1"
+                        size={ImageSize.DEFAULT}
+                      />
+                    </Text>
+                    <hr className="w-full" />
+                    <div
+                      p
+                      className="!text-lg leading-relaxed text-slate-300 items-center flex flex-col mt-3"
+                    >
+                      <Text>War Domain</Text>
+                      <Text>Knowledge Domain</Text>
+                      <Text>Life Domain</Text>
+                      <Text>Glory Domain</Text>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
           <div className="md:w-1/3 w-full flex flex-col items-center">
-            <Text
-              p
-              className="!font-light md:!text-s align-middle text-slate-300"
-            >
+            <Text p className="!font-light md:!text-xs ml-10 text-slate-300">
               {" "}
               Divine Form{" "}
             </Text>
             <Image
               src="/public/images/Deities/Odin.png"
               alt="Odin"
-              layout="fill"
-              objectFit="cover"
+              size={ImageSize.xxs}
             />
             <Text p className="!text-lg leading-relaxed text-slate-300">
               Current Residence: Valhalla

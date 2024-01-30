@@ -28,31 +28,39 @@ const MapOfMidgard = () => {
         // Replace these with the x and y positions of the marker as a fraction of the image size
         const markerX = 0.27;
         const markerY = 0.15;
-        buttonRef.current.style.left = `${imgRect.left + imgRect.width * markerX}px`;
-        buttonRef.current.style.top = `${imgRect.top + imgRect.height * markerY}px`;
+        buttonRef.current.style.left = `${
+          imgRect.left + imgRect.width * markerX
+        }px`;
+        buttonRef.current.style.top = `${
+          imgRect.top + imgRect.height * markerY
+        }px`;
       }
     };
-  
+
     updateButtonPosition();
-    window.addEventListener('resize', updateButtonPosition);
-    return () => window.removeEventListener('resize', updateButtonPosition);
+    window.addEventListener("resize", updateButtonPosition);
+    return () => window.removeEventListener("resize", updateButtonPosition);
   }, []);
 
   return (
     <PageLayout PAGE_SEO={PAGE_SEO} home>
-      <section className="container" style={{ marginLeft: 0, paddingLeft: 0 }}>
-        <div className="">
-          <div>
+      <body style={{ overflowX: "auto" }}>
+        <section className="bg-slate-500 flex h-full w-full items-center">
+          <div className="flex h-full w-full items-center">
+            {/* <Image
+                src="/public/images/Map/northeast.png"
+                alt="map of midgard"
+                size={ImageSize.DEFAULT}
+                /> */}
             <img
               ref={imgRef}
-              src="/images/Map/map.jpg"
+              src="/images/Map/east.png"
               useMap="#midgardmap"
               alt="Map of Midgard"
               style={{
-                position: "absolute",
-                top: "height of your nav bar", // replace this with the height of your nav bar
-                width: "100%",
-                height: "calc(100% - height of your nav bar)", // replace this with the height of your nav bar
+                top: "50px", // replace this with the height of your nav bar
+                width: "300vw", // increase this to make the image bigger than the page width
+                height: "calc(170vh - 50px)", // increase this to make the image bigger than the page height, replace 50px with the height of your nav bar
               }}
             />
             <img
@@ -60,18 +68,18 @@ const MapOfMidgard = () => {
               src="/images/Map/marker2.png" // replace this with the path to your marker image
               alt="Marker"
               style={{
-                width: '5%',
-                position: 'absolute',
+                width: "2%",
+                position: "absolute",
                 zIndex: 1, // Add this line
                 // ...
               }}
               onClick={() => {
-                console.log('Marker clicked!'); // Add this line
-            }}
+                console.log("Marker clicked!"); // Add this line
+              }}
             />
           </div>
-        </div>
-      </section>
+        </section>
+      </body>
     </PageLayout>
   );
 };

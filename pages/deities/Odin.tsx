@@ -79,11 +79,11 @@ const Odin = () => {
                 </div>
               </div>
               <div className="flex flex-wrap justify-between">
-                <div className="w-full md:pl-2">
+                <div className="w-full md:pl-2 mt-5">
                   <Text
                     p
                     className="!text-lg md:!text-xl lg:!text-2xl leading-relaxed text-warmonger !text-justify text-slate-300"
-                    >
+                  >
                     The all-father himself. He commands an army of valkyries and
                     resides in the realm of Valhalla. With that, he receives the
                     souls of the people who died in glorious battle, called the
@@ -92,6 +92,13 @@ const Odin = () => {
                     of Midgard as the first deity as well as the last, Odin
                     continues to train and study the different realms of
                     existence to prepare for the final battle.
+                    <br /><br/>
+                    While his temples depict his tales of epic battles and
+                    glorious victories, many visit his sacred grounds in order
+                    to visit the extensive library on site. Containing knowledge
+                    many would have lost eons ago, Odin ensures that his
+                    followers would never be caught off guard when battling
+                    their foes.
                   </Text>
                   <div className="items-center ">
                     <div className="flex items-center">
@@ -149,7 +156,9 @@ const Odin = () => {
                       >
                         Alignment:
                       </Text>
-                      <Text className="!text-2xl text-slate-50">Neutral Good</Text>
+                      <Text className="!text-2xl text-slate-50">
+                        Neutral Good
+                      </Text>
                     </div>
                   </div>
                 </div>
@@ -159,7 +168,7 @@ const Odin = () => {
               <Image
                 src="/public/images/Deities/Odin.png"
                 alt="Odin"
-                size={ImageSize.DEFAULT}
+                size={ImageSize.FUll}
                 caption="Current Residence: Valhalla"
               />
             </div>

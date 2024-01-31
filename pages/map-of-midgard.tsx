@@ -44,26 +44,19 @@ const MapOfMidgard = () => {
 
   return (
     <PageLayout PAGE_SEO={PAGE_SEO} home>
-      <body style={{ overflowX: "auto" }}>
-        <section className="bg-slate-500 flex h-full w-full items-center">
-          <div className="flex h-full w-full items-center">
-            {/* <Image
-                src="/public/images/Map/northeast.png"
-                alt="map of midgard"
-                size={ImageSize.DEFAULT}
-                /> */}
-            <img
-              ref={imgRef}
-              src="/images/Map/east.png"
-              useMap="#midgardmap"
-              alt="Map of Midgard"
-              style={{
-                top: "50px", // replace this with the height of your nav bar
-                width: "300vw", // increase this to make the image bigger than the page width
-                height: "calc(170vh - 50px)", // increase this to make the image bigger than the page height, replace 50px with the height of your nav bar
-              }}
-            />
-            <img
+      <div style={{overflowX: "auto" }}>
+        {/* <div className="flex flex-wrap min-w-max items-center">
+          <Image
+            src="/public/images/Map/east.png"
+            alt="Map of Midgard"
+            size={ImageSize.MEDIUM}
+          /> */}
+        <img
+          src="/images/Map/east.png"
+          alt="Map of Midgard"
+          style={{ maxWidth: 'none', width: '140%', display: 'block' }}
+        />
+        {/* <img
               ref={buttonRef}
               src="/images/Map/marker2.png" // replace this with the path to your marker image
               alt="Marker"
@@ -76,10 +69,9 @@ const MapOfMidgard = () => {
               onClick={() => {
                 console.log("Marker clicked!"); // Add this line
               }}
-            />
-          </div>
-        </section>
-      </body>
+            /> */}
+        {/* </div> */}
+      </div>
     </PageLayout>
   );
 };

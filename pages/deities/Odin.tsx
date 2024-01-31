@@ -72,7 +72,7 @@ const Odin = () => {
                         p
                         className="!text-5xl leading-relaxed text-slate-100"
                       >
-                        The Church of Honor
+                        The Church of Honour
                       </Text>
                     </Text>
                   </div>
